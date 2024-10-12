@@ -182,3 +182,11 @@ footer {
     margin: 0 auto; 
 }
 
+/* uniform margins in the Experience and Projects section */
+#work {
+    width: 80%;  
+    margin: 0 auto; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    text-align: left; 
+}
