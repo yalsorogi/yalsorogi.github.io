@@ -1,6 +1,6 @@
 * {
-    margin: 8;
-    padding: 8;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -182,4 +182,20 @@ footer {
     margin: 0 auto; /* Center the content within the full-width footer */
 }
 
+/* For uniform margins in the Experience and Projects section */
+#work {
+    width: 80%;  /* Keep the width consistent with the container */
+    margin: 0 auto; /* This centers the content horizontally */
+    padding-left: 20px; /* Adjust padding for uniform margins */
+    padding-right: 20px; /* Adjust padding for uniform margins */
+    text-align: left; /* Keep text aligned to the left */
+}
+
+/* If you want all sections to have the same margins, add this: */
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
